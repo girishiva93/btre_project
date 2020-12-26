@@ -27,6 +27,8 @@ SECRET_KEY = 'vvea4*59a)@r5ysbe*ht*l1lg9*wjhzvm$8!s3gatuj_5o!cyz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+ALLOWED_HOSTS = ['realestatenp.herokuapp.com','127.0.0.1']
+
 # Application definition
 
 INSTALLED_APPS = [
@@ -44,6 +46,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -133,7 +136,7 @@ USE_TZ = True
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'btre/static')
+    os.path.join(BASE_DIR, 'static')
 ]
 
 # Media Folder settings
