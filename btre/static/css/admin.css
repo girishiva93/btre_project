@@ -1,0 +1,40 @@
+#header {
+  height: 50px;
+  background: #102810;
+  color: #ffffff;
+}
+
+#branding h1 {
+  color: #ffffff;
+}
+
+a:link,
+a:visited {
+  color: #102810;
+}
+
+div.breadcrumbs {
+  background: #30caa0;
+  color: #102010;
+}
+
+div.breadcrumbs a {
+  color: #102010;
+}
+.module h2,
+.module caption,
+.inline-group h2 {
+  background: #30caa0;
+}
+.buttin,
+input[type="submit"],
+input[type="button"],
+.submit-row input,
+a.button {
+  background: #102010;
+  color: #ffffff;
+}
+
+.changelist-search{
+  width: 100%;
+}
